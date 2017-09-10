@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/favourites"
+        android:title="@string/favourites"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/sort"
+        android:title="@string/sort"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/old_to_new"
+                android:title="@string/old_to_new"
+                app:showAsAction="never"/>
+            <item android:id="@+id/new_to_old"
+                android:title="@string/new_to_old"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/filter"
+        android:title="@string/filter"
+        android:icon="@drawable/filter"
+        app:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/all"
+                android:title="@string/all"
+                app:showAsAction="never"/>
+            <item android:id="@+id/publisher_filter"
+                android:title="@string/publisher_filter"
+                app:showAsAction="never"/>
+            <item android:id="@+id/category_filter"
+                android:title="@string/category_filter"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+
+</menu>

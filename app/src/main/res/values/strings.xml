@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PsuedoNewsApp</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_bookmark">Bookmark</string>
+
+    <string name="favourites">Favourites</string>
+    <string name="filter">Filter</string>
+
+    <string name="sort">Sort</string>
+    <string name="old_to_new">Older First</string>
+    <string name="new_to_old">Newer First</string>
+
+    <string name="all">All</string>
+    <string name="publisher_filter">Publisher</string>
+    <string name="category_filter">Category</string>
+
+
+</resources>
